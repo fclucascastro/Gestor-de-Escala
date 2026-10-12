@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Build e relatórios
+dist/
+build/
+coverage/
+
+# Python (serviço do solver, mais adiante)
+__pycache__/
+*.pyc
+.venv/
+
+# Sistema e logs
+Thumbs.db
+*.log
